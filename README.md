@@ -24,3 +24,10 @@ Building a web3 SAAS
 5. Create and RPC server on alchemy.
 6. Let the users request payout,submit the payouts on the blockchain and put the txn signature in the database.
 7. Write the worker that polls the database and marks the entries as succeeded/failed/processing.
+
+
+# Steps :
+```npm i (modules)```
+```npx prisma generate --schema```
+```tsc -b```
+```node dest/index.js```
