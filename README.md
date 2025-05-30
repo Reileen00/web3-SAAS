@@ -1,7 +1,7 @@
-### Web3-SAAS
+# Web3-SAAS
 Building a web3 SAAS 
 ## Steps to follow
-# Web2 steps:
+### Web2 steps:
 1. Create a Node.js express backend
 2. Create AWS credentials
 3. Create 2 frontends
@@ -16,7 +16,7 @@ Building a web3 SAAS
   b. POST/submission
   c. GET/balance
   d. POST/payout => dummy for now
-# Web3 steps:
+### Web3 steps:
 1. Let users sign in and link their wallet address to their account(signing messages).
 2. Make user pay 50 dollars and generate a txn signature.
 3. Make the backend verify the txn signature before creating a task.
@@ -26,7 +26,7 @@ Building a web3 SAAS
 7. Write the worker that polls the database and marks the entries as succeeded/failed/processing.
 
 
-# Steps :
+### Steps :
 ```npm i (modules)```
 ```npx prisma generate --schema```
 ```tsc -b```
