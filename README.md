@@ -27,7 +27,7 @@ Building a web3 SAAS
 
 
 ### Steps :
-```npm i (modules)```
-```npx prisma generate --schema```
-```tsc -b```
-```node dest/index.js```
+- ```npm i (modules)```
+- ```npx prisma generate --schema```
+- ```tsc -b```
+- ```node dest/index.js```
