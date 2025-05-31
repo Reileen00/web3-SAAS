@@ -31,3 +31,8 @@ Building a web3 SAAS
 - ```npx prisma generate --schema```
 - ```tsc -b```
 - ```node dest/index.js```
+
+### Connects :
+- NeonDB
+- AWS
+- Postman
